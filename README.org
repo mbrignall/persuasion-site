@@ -1,0 +1,5 @@
+#+title: Persuasion the band
+#+author: mbrignall
+#+date: 2026-03-14
+
+This is the repo for the website for the band Persuasion
