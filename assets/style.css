@@ -1,0 +1,95 @@
+
+@font-face {
+    font-family: Gossip-CrossSmall;
+    src: url("../assets/fonts/Gossip-HighCrossSmall.otf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color:#fef9f9;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+body {
+    background-color: #0d0d1c;
+    color:#fef9f9;
+    padding: 20px;
+}
+
+.footer {
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-family: Gossip-CrossSmall;
+}
+
+.header {
+    padding:15px;
+    width: 100%;
+    text-align:center;
+}
+
+.header img {
+    width: 60%; 
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    font-family: Gossip-CrossSmall;
+}
+
+.menu a {
+    padding: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 7px;
+    font-family: Gossip-CrossSmall;
+}
+
+.main {
+    align-content: center;
+    float: left;
+    width: 60%;
+    padding: 0 10px;
+    font-family: Gossip-CrossSmall;
+}
+
+.main img {
+    width: 100%;
+    padding: 2px;
+}
+
+.p-logo {
+    width: 20%; 
+}
+
+.right {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+    font-family: Gossip-CrossSmall;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+        width: 100%;
+    }
+    
+    .header img {
+	width: 100%;
+    }
+}

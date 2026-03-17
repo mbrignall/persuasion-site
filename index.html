@@ -3,105 +3,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <head>
+    <title>persuasion</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../assets/style.css"> 
 
-    <style>
-
-      @font-face {
-          font-family: Gossip-CrossSmall;
-          src: url("../assets/fonts/Gossip-HighCrossSmall.otf");
-      }
-
-      * {
-          box-sizing: border-box;
-      }
-
-      body {
-          background-color: #0d0d1c;
-          padding: 20px;
-      }
-
-      .menu {
-          float: left;
-          width: 20%;
-          padding: 15px;
-          margin-top: 7px;
-          text-align: center;
-	  color: #fef9f9;
-	  font-family: Gossip-CrossSmall;
-      }
-
-      .menu a {
-          background-color: #0d0d1c;
-          padding: 8px;
-          display: block;
-          width: 100%;
-          margin-top: 7px;
-          color: #fef9f9;
-          font-family: Gossip-CrossSmall;
-      }
-
-      .main {
-          background-color: #0d0d1c;
-	  align-content; center;
-          float: left;
-          width: 60%;
-          padding: 0 10px;
-          color: #fef9f9;
-          font-family: Gossip-CrossSmall;
-      }
-
-      .right {
-          background-color: #0d0d1c;
-          float: left;
-          width: 20%;
-          padding: 15px;
-          margin-top: 7px;
-          text-align: center;
-          color: #fef9f9;
-          font-family: Gossip-CrossSmall;
-      }
-
-      p {
-	  color:  #fef9f9;
-      }
-
-      @media only screen and (max-width: 620px) {
-          /* For mobile phones: */
-          .menu, .main, .right {
-              width: 100%;
-          }
-      }
-    </style>
-
-    <title>Persuasion</title>
-
-    <div style="background-color:#0D0D1C;padding:15px;text-align:center;">
-      <img src="../assets/img/persuasion-logo.png" alt="Persuasion Logo" width="60%" height="60%">
+    <div class="header">
+      <img src="../assets/img/persuasion-logo.png" alt="Persuasion Logo">
     </div>
 
-        <div style="overflow:auto">
+    <div style="overflow:auto">
+      
           <div class="menu">
-            <img src="../assets/img/p-no-bg.png" alt="P Logo" width="20%"/>
+            <img class="p-logo" src="../assets/img/p-no-bg.png" alt="P Logo"/>
 	    <h2>Links</h2>
-            <a href="https://wearepersuasion.bandcamp.com">Bandcamp</a>
+            <i class="fa-brands fa-bandcamp">Bandcamp</i><a href="https://wearepersuasion.bandcamp.com">Bandcamp</a>
             <a href="https://gildedcagebristol.bandcamp.com">Gilded Cage</a>
             <a href="#">Other shit</a>
           </div>
 
           <div class="main">
-            <img src="../assets/img/smokestack.jpg" alt="smoking chimneys of doom" width="100%" style="padding:2px;" />
+            <img class="smoke" src="../assets/img/smokestack.jpg" alt="smoking chimneys of doom"/>
             <h2>Persuasion are a band from Bristol, UK</h2>
             <p>Martin and Liam</p>
           </div>
 
           <div class="right">
-            <img src="../assets/img/p-no-bg.png" alt="P Logo" width="20%"/>
+            <img class="p-logo" src="../assets/img/p-no-bg.png" alt="P Logo"/>
             <h2>Shows</h2>
             <p>Coming soon...</p>
           </div>
+	  
         </div>
-
-        <div style="background-color:#0d0d1c;text-align:center;padding:10px;margin-top:7px;color:#fef9f9;font-family: Gossip-CrossSmall;">© copyright mbrig.nl</div>
-
+        <div class="footer">© copyright mbrig.nl</div>
       </body>
 </html>
