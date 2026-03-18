@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: Gossip-CrossSmall;
-    src: url("../assets/fonts/Gossip-HighCrossSmall.otf");
+    font-family: Gossip-HighSquare;
+    src: url("../assets/fonts/Gossip-HighSquare.otf");
 }
 
 * {
@@ -14,12 +14,13 @@ a {
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: #ff69b4;
 }
 
 body {
     background-color: #0d0d1c;
     color:#fef9f9;
+    font-family: Gossip-HighSquare;
     padding: 20px;
 }
 
@@ -27,7 +28,7 @@ body {
     text-align:center;
     padding:10px;
     margin-top:7px;
-    font-family: Gossip-CrossSmall;
+    f
 }
 
 .header {
@@ -46,7 +47,6 @@ body {
     padding: 15px;
     margin-top: 7px;
     text-align: center;
-    font-family: Gossip-CrossSmall;
 }
 
 .menu a {
@@ -54,7 +54,6 @@ body {
     display: block;
     width: 100%;
     margin-top: 7px;
-    font-family: Gossip-CrossSmall;
 }
 
 .main {
@@ -62,7 +61,6 @@ body {
     float: left;
     width: 60%;
     padding: 0 10px;
-    font-family: Gossip-CrossSmall;
 }
 
 .main img {
@@ -80,7 +78,6 @@ body {
     padding: 15px;
     margin-top: 7px;
     text-align: center;
-    font-family: Gossip-CrossSmall;
 }
 
 @media only screen and (max-width: 620px) {
