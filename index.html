@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>persuasion</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="../assets/style.css"> 
-    <div class="header">
+  </head>
+  
+  <body>
+    <div class="header" id="pHead">
       <img src="../assets/img/persuasion-logo.png" alt="Persuasion Logo">
     </div>
+    
     <div style="overflow:auto">
       <div class="menu">
         <img class="p-logo" src="../assets/img/p-no-bg.png" alt="P Logo"/>
@@ -26,8 +30,25 @@
         <img class="p-logo" src="../assets/img/p-no-bg.png" alt="P Logo"/>
         <h2>Shows</h2>
         <p>Coming soon...</p>
+	<h2>Contact us</h2>
+	<p><a href="mailto:shout@wearepersuasion.com">Bookings</a></p>
       </div>
     </div>
     <div class="footer">© copyright mbrig.nl</div>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var header = document.getElementById("pHead");
+      var sticky = header.offsetTop;
+      
+      function myFunction() {
+	  if (window.pageYOffset > sticky) {
+	      header.classList.add("sticky");
+	  } else {
+	      header.classList.remove("sticky");
+	  }
+      }
+</script>
 </body>
 </html>
